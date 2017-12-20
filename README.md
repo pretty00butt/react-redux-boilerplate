@@ -2,13 +2,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Key Features
 - [React Router v4](https://github.com/ReactTraining/react-router)
-- [Flux Pattern](https://facebook.github.io/flux/)
+- [Redux](https://github.com/reactjs/react-redux)
 - [React Loadable](https://github.com/thejameskyle/react-loadable)
 - [Code Splitting](https://github.com/ReactTraining/react-router/blob/master/packages/react-router-dom/docs/guides/code-splitting.md)
 - [React Helmet](https://github.com/nfl/react-helmet)
-
-## To-Dos
-- [ ] [Flow](https://flow.org/)
 
 ## Getting Started
 
