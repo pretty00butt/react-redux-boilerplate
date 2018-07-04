@@ -4,7 +4,7 @@ import APIS from "../apis";
 export function getUsers(options = {}) {
   return async function(dispatch) {
     dispatch({
-      type: types.GET_USERS,
+      type: types.GET_USERS_SUCCESS,
       users: []
     });
     // return new Promise((resolve, reject) => (
