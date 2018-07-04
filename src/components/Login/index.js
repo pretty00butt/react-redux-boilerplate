@@ -1,22 +1,21 @@
-import React, { Component } from 'react'
-import { Grid } from 'react-bootstrap'
-import { string } from 'prop-types'
+import React, { Component } from "react";
+import { string } from "prop-types";
+
+import Button from "@/components/Common/Button";
 
 export default class LoginComponent extends Component {
   static propTypes = {
     username: string.isRequired
-  }
+  };
 
-  render () {
-    const {
-      username
-    } = this.props
+  render() {
+    const { username } = this.props;
 
     return (
-      <Grid id="login">
+      <section>
         <h1>{username}</h1>
-      </Grid>
-    )
+        <Button text="로그인" />
+      </section>
+    );
   }
 }
-

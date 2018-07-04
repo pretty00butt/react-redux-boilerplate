@@ -1,14 +1,11 @@
-import React, { Component } from 'react'
-import { Grid, Button } from 'react-bootstrap'
+import React, { Component } from "react";
 
 export default class HomeComponent extends Component {
-  render () {
-    const {
-      users
-    } = this.props
+  render() {
+    const { users } = this.props;
 
     return (
-      <Grid>
+      <section>
         <ul>
           {users.map(user => (
             <li>
@@ -17,11 +14,9 @@ export default class HomeComponent extends Component {
                 <li>NAME: {user.name}</li>
               </ol>
             </li>
-          ))
-          }
+          ))}
         </ul>
-      </Grid>
-    )
+      </section>
+    );
   }
 }
-
